@@ -49,4 +49,6 @@ return require('packer').startup(function(use)
             require("everforest").setup()
         end,
     })
+
+    use('ThePrimeagen/harpoon')
 end)
