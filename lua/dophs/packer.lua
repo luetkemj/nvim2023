@@ -46,4 +46,5 @@ return require('packer').startup(function(use)
 
     use('ThePrimeagen/harpoon')
     use('lewis6991/gitsigns.nvim')
+    use('tpope/vim-commentary')
 end)
