@@ -47,4 +47,8 @@ return require('packer').startup(function(use)
     use('ThePrimeagen/harpoon')
     use('lewis6991/gitsigns.nvim')
     use('tpope/vim-commentary')
+    use({
+        "kylechui/nvim-surround",
+        tag = "*", -- Use for stability; omit to use `main` branch for the latest features
+    })
 end)
