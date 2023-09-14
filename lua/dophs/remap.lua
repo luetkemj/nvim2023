@@ -8,8 +8,8 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex, { noremap = true })
 vim.keymap.set('n', "<leader>n", ":set number norelativenumber!<cr>", { noremap = true })
 -- clear search highlights
 vim.keymap.set('n', "<Esc>", ":nohlsearch<cr>", { noremap = true })
--- run prettier formatter
-vim.keymap.set('n', "<leader>p", ":Prettier<cr>", { noremap = true })
+-- run prettier formatter and save
+vim.keymap.set('n', "<leader>p", ":Prettier<cr>:w<cr>", { noremap = true })
 -- close all other panes
 vim.keymap.set('n', "<leader>O", "<C-W><C-O>", { noremap = true })
 -- pane management
