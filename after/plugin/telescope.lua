@@ -9,7 +9,8 @@ require("telescope").setup({
   defaults = {
     layout_strategy='vertical',
     layout_config = {
-      vertical = { width = 0.75 }
+      vertical = { width = 0.75 },
+      mirror = true
       -- other layout configuration here
     },
   },
