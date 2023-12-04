@@ -4,7 +4,7 @@
 
 1. **remove old config:**
 - `rm -rf ~/.config/nvim`
-- `rm -rf ~/.local/share/nvime`
+- `rm -rf ~/.local/share/nvim`
 
 2. **install new config**
 - `git clone git@github.com:luetkemj/nvim2023.git ~/.config/nvim`
