@@ -35,3 +35,6 @@ vim.keymap.set('n', '<leader>i', function()
 
     vim.diagnostic.open_float(nil, { focus = false, scope = 'line' })
 end, { desc = 'Toggle Diagnostics' })
+
+-- make :W do the same thing as :w
+vim.cmd('command! -nargs=0 W w')
